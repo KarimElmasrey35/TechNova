@@ -1,0 +1,242 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1, h2{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+}
+
+.navbar-brand img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 20px;
+}
+
+#navbarNav ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+}
+
+#navbarNav ul li a:hover{
+    color: rgb(9, 169, 9);
+    transition: all 0.4 ease-in-out;
+    -webkit-transition: all 0.4 ease-in-out;
+    -moz-transition: all 0.4 ease-in-out;
+    -ms-transition: all 0.4 ease-in-out;
+    -o-transition: all 0.4 ease-in-out;
+}
+
+#navbarNav ul li a.active{
+    color: rgb(9, 169, 9);
+}
+/* **End Navbar ** */
+
+/* **Start Header Section** */
+.header{
+    background-color: rgb(7, 149, 7);
+    color: whitesmoke;
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header .btn-primary{
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.header .yellow{
+    background-color: #ffd43a;
+}
+
+.header .yellow:hover{
+    background-color: #c6a10c;
+    transition: all 0.4 ease-in-out;
+    -webkit-transition: all 0.4 ease-in-out;
+    -moz-transition: all 0.4 ease-in-out;
+    -ms-transition: all 0.4 ease-in-out;
+    -o-transition: all 0.4 ease-in-out;
+}
+
+.header .blue-btn:hover{
+    background-color: rgb(9, 65, 169);
+    transition: all 0.4 ease-in-out;
+    -webkit-transition: all 0.4 ease-in-out;
+    -moz-transition: all 0.4 ease-in-out;
+    -ms-transition: all 0.4 ease-in-out;
+    -o-transition: all 0.4 ease-in-out;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: 40rem;
+}
+/* **End Header Section** */
+
+/* **Start Logos Section** */
+.client-img{
+    object-fit: contain;
+    width: 120px;
+    padding: 0 2%;
+}
+/* **End Logos Section** */
+
+/* **Start Services Section** */
+.card-services{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 19rem; 
+    height: 16rem;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cards-group :hover{
+    background-color: #29b808;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.6 ease-out;
+    -webkit-transition: all 0.6 ease-out;
+    -moz-transition: all 0.6 ease-out;
+    -ms-transition: all 0.6 ease-out;
+    -o-transition: all 0.6 ease-out;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+/* **End Services Section** */
+
+/* **Start About Section** */
+.card-state{
+    background-color: #e7c800;
+    color: #000000;
+    width: 10rem; 
+    height: 10rem;
+    padding: 10px 15px;
+    box-shadow: 10px 5px 2px #3f6940b6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-state:hover{
+    background-color: #ffde07;
+    color: #ffffff;
+    transition: all 0.6 ease-out;
+    -webkit-transition: all 0.6 ease-out;
+    -moz-transition: all 0.6 ease-out;
+    -ms-transition: all 0.6 ease-out;
+    -o-transition: all 0.6 ease-out;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.state-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-about{
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+/* **End About Section** */
+
+/* **Start Portfolio Section** */
+.blue{
+    background-color: #03b0a2;
+    height: max-content;
+    
+}
+
+.card-portfolio{
+    position: relative;
+    overflow: hidden;
+    width: 26rem;
+    height: 30rem;
+}
+
+.card-portfolio:hover{
+    cursor: pointer;
+    transition: all 0.6 ease-out;
+    -webkit-transition: all 0.6 ease-out;
+    -moz-transition: all 0.6 ease-out;
+    -ms-transition: all 0.6 ease-out;
+    -o-transition: all 0.6 ease-out;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition: all 0.6 ease-out;
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+}
+
+.card-img-top{
+    object-fit: cover;
+    height: 550px;
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
+}
+
+.card-discreption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+}
+/* **End Portfolio Section** */
